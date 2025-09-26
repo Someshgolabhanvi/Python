@@ -1,0 +1,5 @@
+s = input("Enter a statement: ")
+print(s.upper())
+print(s.lower())
+print(s.replace(" ","_"))
+print(s.strip())
