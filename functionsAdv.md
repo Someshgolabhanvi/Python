@@ -66,10 +66,13 @@ print(students)
 ```
 **Output:**
 ```
-[{'name': 'Alice', 'age': 18}, {'name': 'Enari', 'age': 20}, {'name': 'Bob', 'age': 22}]```
+[{'name': 'Alice', 'age': 18}, {'name': 'Enari', 'age': 20}, {'name': 'Bob', 'age': 22}]
+
+```
 ---
 
-# 3. Recursion
+# 3.Recursion
+
 Recursion is a technique where a function calls itself to solve a problem. It is useful when a problem can be broken down into smaller subproblems that can be solved using the same function.
 
 **Syntax:**
@@ -95,6 +98,32 @@ print(factorial(5))
 ```
 
 ---
+
+# 4.Nasted Functions
+You can define a function inside another function. This is called nested functions.
+
+**Syntax:**
+```python
+def outer_function():
+    def inner_function():
+        # function body
+    return inner_function()
+```
+
+**Example: Nested Functions**
+```python
+def outer_function():
+    def inner_function():
+        print("Hello")
+    return inner_function()
+outer_function()
+```
+**Output:**
+```
+Hello
+```
+
+--- 
 
 # HomeWork:
 
